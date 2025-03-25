@@ -1,0 +1,23 @@
+Voor instellingen lasercutter:
+* Vier cuts/layers, gedefinieerd via stroke color in SVG-bestand;
+* 2 lines en 2 fills;
+* tintverschil tussen donker en licht was via verschil in power/speed/afstand tussen laserlijnen. Maar geen exacte wetenschap en afhankelijk van tint materiaal, dus laat ik aan jullie inschatting.
+
+LC layers:
+----------
+
+1. [line] volledig doorsnijden ("box cutlines")
+
+Rood (RGB 255,0,0)
+
+2. [line] donkere lijn ("outline")
+
+Paars (RGB 255,0,255)
+
+3. [fill] donkere arcering ("shaded_dark")
+
+Groen (RGB 0,255,0)
+
+4. [fill] lichte arcering ("shaded_light")
+
+Blauw (RGB 0,0,255)
